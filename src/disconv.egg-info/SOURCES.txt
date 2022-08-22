@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+src/disconv.py
+src/disconv.egg-info/PKG-INFO
+src/disconv.egg-info/SOURCES.txt
+src/disconv.egg-info/dependency_links.txt
+src/disconv.egg-info/requires.txt
+src/disconv.egg-info/top_level.txt
