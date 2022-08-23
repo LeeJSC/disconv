@@ -13,7 +13,7 @@ with open('README.md','r') as fh:
       long_description=fh.read()
 
 setup(name='disconv',
-      version='0.0.1',
+      version='0.0.2',
       description='basic value datatype conversion module in datastructures',
       py_modules=['disconv'],
       package_dir={'':'src'},
