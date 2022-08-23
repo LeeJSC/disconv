@@ -13,7 +13,7 @@ with open('README.md','r') as fh:
       long_description=fh.read()
 
 setup(name='disconv',
-      version='0.0.2',
+      version='0.0.3',
       description='basic value datatype conversion module in datastructures',
       py_modules=['disconv'],
       package_dir={'':'src'},
@@ -22,6 +22,7 @@ setup(name='disconv',
             "Programming Language :: Python :: 3.6",
             "Programming Language :: Python :: 3.7",
             "Programming Language :: Python :: 3.8",
+            "Programming Language :: Python :: 3.10",
             "License :: OSI Approved :: MIT License",
             "Operating System :: OS Independent",
 
