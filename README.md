@@ -29,7 +29,7 @@ foo.tostr(data)
 
 ##Methods:
 ### tonum() : converts values in supported datastructures to int type
-	conversions: source_type:output_type => int:int, float:int, str: list of ASCII, bool: {True:1,False:0}
+	conversions: source_type:output_type => int:int, float:int, str: [list of ASCII for strings of length>1; direct ASCII value otherwise], bool: {True:1,False:0}
 
 ### tostr() : converts values in supported datastructures to str type
 
