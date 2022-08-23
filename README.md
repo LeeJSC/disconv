@@ -29,12 +29,12 @@ foo.tostr(data)
 
 ##Methods:
 ### tonum() : converts values in supported datastructures to int type
-	conversions: source_type:output_type => int:int, float:int, str: list of ASCII, bool: {True:1,False:0}
+	conversions: source_type:output_type => int:int, float:int, str: list of ASCII values if len(str)>1; else, returns ASCII value of str , bool: {True:1,False:0}
 
 ### tostr() : converts values in supported datastructures to str type
 
 ### tofloat() : converts values in supported datastructures to float type
-	conversions: source_type:output_type => int:float, float:float, str: list of ASCII values in float, bool: {True:1.0,False:0.0}
+	conversions: source_type:output_type => int:float, float:float, str: list of float of ASCII values if len(str)>1; else, returns float of ASCII value of str , bool: {True:1.0,False:0.0}
 
 Note_1: Conversion of dict type data-structures convert the datatype of the values of the dictionary
 
